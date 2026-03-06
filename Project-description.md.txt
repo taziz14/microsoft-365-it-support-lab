@@ -1,0 +1,99 @@
+# Microsoft 365 IT Support & Endpoint Management Lab
+
+## Project Overview
+
+This project demonstrates the deployment and administration of a Microsoft 365 cloud environment to simulate real-world IT support operations. The lab focuses on user management, identity security, endpoint compliance configuration, and troubleshooting authentication issues using Microsoft 365 administrative tools.
+
+The environment was built using a Microsoft 365 Business Premium tenant and includes identity management through Microsoft Entra ID and endpoint management using Microsoft Intune.
+
+This project simulates common tasks performed by IT support and helpdesk professionals within modern enterprise environments.
+
+---
+
+## Technologies and Tools Used
+
+Microsoft 365 Business Premium
+Microsoft 365 Admin Center
+Microsoft Entra ID (Azure Active Directory)
+Microsoft Intune
+Web-based administrative portals
+
+---
+
+## Lab Environment
+
+Tenant: Microsoft 365 Business Premium Trial
+Administrative Account: Global Administrator
+Test Users:
+
+* John Support – Helpdesk user
+* Sarah Finance – Finance department user
+
+---
+
+## Key Tasks Demonstrated
+
+User Account Provisioning
+New users were created within Microsoft 365 Admin Center and assigned appropriate licenses to simulate employee onboarding.
+
+Role-Based Access Control
+Administrative roles were assigned to demonstrate how organizations control user privileges within Microsoft 365.
+
+Password Reset and Helpdesk Support
+Password reset procedures were tested to simulate common helpdesk support tasks for user login issues.
+
+Multi-Factor Authentication Configuration
+Authentication methods were reviewed and configured to simulate implementing stronger security policies for users.
+
+Endpoint Compliance Management
+Device compliance policies were created in Microsoft Intune to enforce security requirements on managed endpoints.
+
+Security Group Administration
+Security groups were created to simulate role-based access and application access management.
+
+Authentication Monitoring
+User sign-in logs were reviewed within Microsoft Entra ID to demonstrate monitoring and auditing of authentication activity.
+
+---
+
+## Troubleshooting Scenarios
+
+Password Reset Failure in Entra ID
+
+Problem:
+A password reset attempt within the Entra ID portal failed due to administrative privilege restrictions.
+
+Root Cause:
+Administrative role permissions had not fully propagated across the tenant.
+
+Resolution:
+Password reset was successfully completed through the Microsoft 365 Admin Center interface.
+
+Conditional Access Configuration Issue
+
+Problem:
+Conditional Access policy configuration generated a conflict error.
+
+Root Cause:
+Microsoft Security Defaults were enabled, preventing Conditional Access configuration.
+
+Resolution:
+Conditional Access configuration was skipped due to tenant-level security settings.
+
+---
+
+## Skills Demonstrated
+
+Microsoft 365 administration
+User provisioning and identity management
+Multi-factor authentication configuration
+Device compliance policy configuration
+Security group management
+Authentication monitoring and auditing
+Helpdesk troubleshooting workflows
+
+---
+
+## Project Purpose
+
+This project was created as part of an IT support portfolio to demonstrate practical experience working with Microsoft 365 administrative tools and identity management systems commonly used in enterprise environments.
