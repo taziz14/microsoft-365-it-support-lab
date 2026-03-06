@@ -1,0 +1,72 @@
+Lab Notes – Microsoft 365 IT Support & Endpoint Management Lab
+
+Objective
+The purpose of this lab was to simulate real-world IT support operations using Microsoft 365 cloud administration tools. The lab focused on user account management, identity security, device compliance configuration, and troubleshooting authentication and access issues within a Microsoft 365 environment.
+
+Environment Setup
+A Microsoft 365 Business Premium trial tenant was created to simulate an enterprise environment. This tenant provided access to Microsoft 365 Admin Center, Microsoft Entra ID, and Microsoft Intune for identity and endpoint management.
+
+Administrative Account
+Admin User: [tausifadmn@tausifadmn.onmicrosoft.com](mailto:tausifadmn@tausifadmn.onmicrosoft.com)
+Role: Global Administrator
+
+Test User Accounts Created
+
+1. John Support – IT Helpdesk user
+2. Sarah Finance – Finance department user
+
+These accounts were used to simulate employee onboarding, authentication configuration, and support troubleshooting.
+
+Tools and Technologies Used
+Microsoft 365 Admin Center – User provisioning and tenant administration
+Microsoft Entra ID – Identity management and authentication configuration
+Microsoft Intune – Endpoint compliance policy management
+Microsoft 365 Business Premium – Licensing and enterprise feature access
+
+Lab Activities
+
+User Onboarding
+New users were created within the Microsoft 365 Admin Center to simulate onboarding of employees in an enterprise environment. The accounts were assigned Microsoft 365 Business Premium licenses to enable access to cloud services.
+
+Role Assignment
+Administrative roles were assigned to demonstrate role-based access control (RBAC). The lab included assigning user administrator privileges to simulate helpdesk administrative capabilities.
+
+Password Reset Simulation
+A helpdesk password reset workflow was simulated for a user experiencing login issues. Password resets were tested through both the Entra ID portal and the Microsoft 365 Admin Center.
+
+MFA Configuration
+Multi-factor authentication (MFA) configuration was reviewed and authentication methods were added to simulate enforcing stronger authentication for users.
+
+Device Compliance Policy
+A device compliance policy was created using Microsoft Intune to enforce security standards for managed devices. Policies included password requirements and device security settings.
+
+Security Group Creation
+Security groups were created to simulate access control for applications or resources within an organization.
+
+Sign-in Monitoring
+User sign-in logs were reviewed within Entra ID to simulate security auditing and authentication monitoring.
+
+Troubleshooting Scenarios
+
+Issue 1 – Password Reset Failure in Entra ID
+Problem:
+While attempting to reset a user password within the Entra ID portal, the operation failed with an administrative privilege error.
+
+Cause:
+The administrative role had not fully propagated in the new tenant environment.
+
+Resolution:
+The password reset was successfully performed using the Microsoft 365 Admin Center instead of the Entra ID interface.
+
+Issue 2 – Conditional Access Configuration Issue
+Problem:
+Conditional Access policy creation produced an error due to default security settings being enabled.
+
+Cause:
+Security Defaults were enabled in the tenant, which conflicts with Conditional Access policies.
+
+Resolution:
+Conditional Access configuration was skipped in this lab environment due to tenant security configuration limitations.
+
+Conclusion
+This lab successfully demonstrated several core IT support tasks performed in enterprise environments, including user provisioning, authentication management, endpoint compliance configuration, and troubleshooting administrative operations within Microsoft 365.
