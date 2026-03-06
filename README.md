@@ -148,59 +148,59 @@ IT Helpdesk Troubleshooting
 
 ### User Onboarding Setup
 
-![User Onboarding](Screenshots/01-M365-User-Onboarding-Setup.png)
+![User Onboarding](screenshots/01-M365-User-Onboarding-Setup.png)
 
 ### Microsoft 365 Admin Dashboard
 
-![Admin Dashboard](Screenshots/02-M365-Admin-Dashboard.png)
+![Admin Dashboard](screenshots/02-M365-Admin-Dashboard.png)
 
 ### Active Users
 
-![Active Users](Screenshots/03-M365-Active-Users.png)
+![Active Users](screenshots/03-M365-Active-Users.png)
 
 ### Helpdesk Password Reset
 
-![Password Reset](Screenshots/04-Helpdesk-Password-Reset.png)
+![Password Reset](screenshots/04-Helpdesk-Password-Reset.png)
 
 ### User Role Assignment
 
-![Role Assignment](Screenshots/05-User-Role-Assignment.png)
+![Role Assignment](screenshots/05-User-Role-Assignment.png)
 
 ### Intune Endpoint Manager
 
-![Intune](Screenshots/06-M365-Intune-Endpoint-Manager.png)
+![Intune](screenshots/06-M365-Intune-Endpoint-Manager.png)
 
 ### Device Compliance Policy
 
-![Compliance Policy](Screenshots/07-Device-Compliance-Policy.png)
+![Compliance Policy](screenshots/07-Device-Compliance-Policy.png)
 
 ### Entra ID User Management
 
-![User Management](Screenshots/08-Entra-ID-User-Management.png)
+![User Management](screenshots/08-Entra-ID-User-Management.png)
 
 ### MFA Configuration
 
-![MFA](Screenshots/09-MFA-Method-Added.png)
+![MFA](screenshots/09-MFA-Method-Added.png)
 
 ### Security Group Creation
 
-![Security Group](Screenshots/10-Security-Group-Created.png)
+![Security Group](screenshots/10-Security-Group-Created.png)
 
 ### Compliance Policy Assignment
 
-![Policy Assignment](Screenshots/11-Compliance-Policy-Assignment.png)
+![Policy Assignment](screenshots/11-Compliance-Policy-Assignment.png)
 
 ### Helpdesk Password Reset via Admin Center
 
-![Password Reset Admin](Screenshots/12-Helpdesk-Password-Reset-Admin-Center.png)
+![Password Reset Admin](screenshots/12-Helpdesk-Password-Reset-Admin-Center.png)
 
 ### User Sign-in Logs
 
-![Signin Logs](Screenshots/13-User-Signin-Logs.png)
+![Signin Logs](screenshots/13-User-Signin-Logs.png)
 
 ### Application Access Group
 
-![Access Group](Screenshots/14-Application-Access-Group.png)
+![Access Group](screenshots/14-Application-Access-Group.png)
 
 ---
 
